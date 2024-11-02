@@ -1,0 +1,27 @@
+.checout{
+    
+    display: flex;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
+    
+}
+
+.checout-ad{
+    width: 100%;
+  margin-bottom: 10px;
+}
+.checoutTitle{
+    
+   padding-bottom: 10px;
+   padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.empty-basket{
+  align-items: center;
+  margin-top: 200px;
+  font-size: 40px;
+  font-weight: 600;
+  color:#131921 ;
+}

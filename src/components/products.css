@@ -1,0 +1,47 @@
+.product{
+   display: flex;
+
+  flex-direction: column;
+  z-index: 1;
+  width: 100%;
+  max-height: 400px;
+  min-width: 100px;
+  margin: 10px;
+  padding: 20px;
+  background-color: white;
+  transition: background 0.3s ease;
+   
+}
+.product:hover{
+   background-color: black;
+   color: white;
+}
+.imgaes{
+   width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+.imgaes:hover{
+   scale: 1.1;
+}
+
+.boten{
+   display: block;
+   margin: 10px auto 0;
+   background-color: #cd9042;
+   border: 1px solid;
+   border-color: #a88734 #9c7e31 #846a29;
+   color: #111;
+   cursor: pointer;
+   width: 150px;
+   height: 35px;
+   border-radius: 5px;
+   transition:  0.5s ease;
+   
+}
+.boten:active{
+   scale: 0.8;
+}
+
